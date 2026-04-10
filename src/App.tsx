@@ -25,7 +25,7 @@ export default function App() {
 
       {/* Top Right X Button */}
       <a
-        href="https://www.x.com/lozendev"
+        href="https://www.x.com"
         target="_blank"
         rel="noopener noreferrer"
         className="absolute top-0 right-0 z-20 w-16 h-16 sm:w-20 sm:h-20 bg-black"
@@ -44,7 +44,7 @@ export default function App() {
       {/* Huge Button */}
       <button
         onClick={handleCopy}
-        className="w-full h-full bg-black flex items-center justify-center cursor-pointer outline-none focus:ring-1 focus:ring-white/10 transition-all duration-300"
+        className="w-full h-full bg-black flex items-center justify-center cursor-pointer outline-none transition-all duration-300"
         aria-label="Copy CA"
       >
         <span className="text-white font-mono text-xs sm:text-sm tracking-[0.4em] sm:tracking-[0.6em] lowercase">
