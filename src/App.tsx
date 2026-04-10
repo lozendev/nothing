@@ -25,7 +25,7 @@ export default function App() {
 
       {/* Top Right X Button */}
       <a
-        href="https://www.x.com"
+        href="https://www.x.com/lozendev"
         target="_blank"
         rel="noopener noreferrer"
         className="absolute top-0 right-0 z-20 w-16 h-16 sm:w-20 sm:h-20 bg-black"
