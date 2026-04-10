@@ -18,14 +18,19 @@ export default function App() {
     <div className="h-screen w-full bg-black relative p-4 sm:p-8 flex items-center justify-center overflow-hidden">
       {/* Hidden Top Left Text */}
       <div className="absolute top-4 left-4 sm:top-8 sm:left-8 z-10">
-        <span className="text-black font-mono text-[10px] sm:text-xs selection:bg-white selection:text-black cursor-text">
+        <a
+          href="https://www.lozen.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-black font-mono text-[10px] sm:text-xs selection:bg-white selection:text-black cursor-text"
+        >
           LOZENPRJKT#4
-        </span>
+        </a>
       </div>
 
       {/* Top Right X Button */}
       <a
-        href="https://www.x.com"
+        href="https://www.x.com/lozendev"
         target="_blank"
         rel="noopener noreferrer"
         className="absolute top-0 right-0 z-20 w-16 h-16 sm:w-20 sm:h-20 bg-black"
