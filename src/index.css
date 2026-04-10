@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, monospace;
+}
